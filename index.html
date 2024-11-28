@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARCA</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>ARCA | Agencia de Recaudación y Control Aduanero</h1>
+            <div class="login-box">
+                <input type="text" id="claveFiscalInput" placeholder="Ingresar con Clave Fiscal" class="login-input">
+                <button id="ingresarBtn" class="btn">Ingresar</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <p><strong>Impuesto PAIS:</strong> Se eliminó el pago a cuenta del 95% para las importaciones</p>
+            <div class="banner-info">
+                <span>Pacto Fiscal</span>
+                <p>ARCA - 90 días para regularizar deudas sin intereses adicionales.</p>
+                <button id="infoPactoFiscal" class="btn">Más información</button>
+            </div>
+        </section>
+
+        <section class="consultados">
+            <h2>Más Consultados</h2>
+            <div class="grid">
+                <div class="grid-item">Clave Fiscal</div>
+                <div class="grid-item">Monotributo</div>
+                <div class="grid-item">Presentaciones Digitales</div>
+                <div class="grid-item">ARCA - Consultas Financieras</div>
+                <div class="grid-item">Microcréditos</div>
+                <div class="grid-item">Vencimientos</div>
+                <div class="grid-item">Guía paso a paso</div>
+                <div class="grid-item">Aportes en línea</div>
+                <div class="grid-item">Formularios</div>
+            </div>
+        </section>
+
+        <section class="novedades">
+            <h2>Novedades</h2>
+            <div class="news-grid" id="novedadesContainer">
+                <div class="news-item">
+                    <img src="image1.jpg" alt="Novedad 1">
+                    <p>ARCA ajustará modelos de ...</p>
+                </div>
+                <div class="news-item">
+                    <img src="image2.jpg" alt="Novedad 2">
+                    <p>Ingreso y pagos de deudas en línea...</p>
+                </div>
+                <div class="news-item">
+                    <img src="image3.jpg" alt="Novedad 3">
+                    <p>ARCA modifica la fecha límite de regularización...</p>
+                </div>
+                <div class="news-item">
+                    <img src="image4.jpg" alt="Novedad 4">
+                    <p>Rechazar cheques: todo lo que debés saber...</p>
+                </div>
+            </div>
+            <button id="verMasNovedades" class="btn">Ver más novedades</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; ARCA 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
